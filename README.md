@@ -41,8 +41,9 @@ gAItar is a computer vision software that analyzes videos of users playing the g
 3. Running the Application
 
    ```bash
-   python app/__init__.py OR flask run
-
+   python app/__init__.py
+   # OR #
+   flask run
    ```
 
 4. Open your web browswer and go to http://127.0.0.1:5000
