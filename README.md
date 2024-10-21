@@ -1,25 +1,59 @@
-# gAItar - Guitar Technique Analyzer
+# gAItar
 
-gAItar is a Flask-based web application that allows users to upload videos of themselves playing the guitar. The application uses a YOLOv8 object detection model to analyze the video and highlight flaws in thumb placement, wrist placement, and right-hand strumming.
+## Description
+
+gAItar is a computer vision software that analyzes videos of users playing the guitar and highlights errors in their technique.
 
 ## Features
 
-- Upload guitar videos for analysis
-- Detect flaws in guitar technique (thumb, wrist, strumming placement)
-- Get a processed video with detected flaws highlighted
+- Upload guitar videos for analysis (make sure guitar is fully in frame and video is clear!)
+- Detects flaws (thumb, wrist, strumming placement)
+- Processed video with highlighted featuers
 
-## Setup Instructions
+## Getting Started
 
 ### Prerequisites
 
-- Python 3.x
-- `pip` (Python package installer)
+- Python 3.6+
+- Flask
+- Ultralytics
+- Open CV
+- Torch
+- Numpy
 
-### Step 1: Clone the Repository
+### Installation and Usage
 
-Clone this repository to your local machine:
+1. Clone the repository:
 
-```bash
-git clone https://github.com/your-username/gAItar.git
-cd gAItar
-```
+   ```bash
+   git clone https://github.com/ajitsxro/gAItar.git
+   cd gAItar
+
+   ```
+
+2. Install dependencies
+
+   ```bash
+   pip install -r requirements.txt
+
+   ```
+
+3. Running the Application
+
+   ```bash
+   python app/__init__.py OR flask run
+
+   ```
+
+4. Open your web browswer and go to http://127.0.0.1:5000
+
+5. Usage
+
+   Upload a video of you playing the guitar.
+   The model will analyze the video and return a processed video stored in the processed folder!
+
+## Contribution
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+Enjoy!
