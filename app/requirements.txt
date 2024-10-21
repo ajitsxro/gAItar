@@ -1,0 +1,6 @@
+Flask
+torch
+torchvision
+torchaudio
+opencv-python
+numpy

@@ -1,0 +1,12 @@
+# Ignore video files
+app/static/uploads/*         # Ignore all uploaded videos
+app/static/processed/*       # Ignore all processed videos
+uploads/*
+processed/*
+
+# Ignore compiled Python files
+__pycache__/                 # Ignore Python cache folders
+*.pyc                        # Ignore Python compiled files
+
+# Ignore virtual environment
+venv/                        # Ignore the virtual environment folder
