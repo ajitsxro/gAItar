@@ -2,7 +2,7 @@ from flask import request, render_template
 import torch
 import cv2
 import os
-from ultralytics import YOLO
+from ultralytics import ASSETS, YOLO
 from app import app
 
 # Load your trained YOLOv8 model
