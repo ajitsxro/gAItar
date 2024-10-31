@@ -3,7 +3,7 @@ import torch
 import cv2
 import os
 from ultralytics import ASSETS, YOLO
-from app import app
+from . import app
 
 # Load your trained YOLOv8 model
 model = YOLO('app/runs/detect/train25/weights/best.pt')
